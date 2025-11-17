@@ -18,7 +18,7 @@ class VideoGameFullTest extends Simulation {
   val csvFeeder = csv("data/gameCsvFile.csv").random
 
   before {
-    println(s"Running test with ${USERCOUNT} users")
+    println(s"Running test Jenkins with ${USERCOUNT} users")
     println(s"Ramping users over ${RAMPDURATION} seconds")
     println(s"Total test duration: ${TESTDURATION} seconds")
   }
